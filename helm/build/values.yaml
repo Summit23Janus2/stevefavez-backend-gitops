@@ -1,0 +1,15 @@
+app:
+  name: stevefavez-poi-backend-app
+  namespace: stevefavez
+  cluster: .apps.summit23blues.6mbu.p1.openshiftapps.com
+
+git:
+  branch: main
+  repo: https://github.com/Summit23Janus2/stevefavez-backend
+  org: Summit23Janus2
+  name: stevefavez-backend
+
+image:
+  host: image-registry.openshift-image-registry.svc:5000
+  name: stevefavez/poi-backend-app
+  tag: latest
